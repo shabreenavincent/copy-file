@@ -19,21 +19,29 @@ To write the file 1 content in file 2.
 End the program.
 ## PROGRAM:
 ```
+#Developed by:SHABREENA VINCENT
+#Reg no:212222230141
 
-program developed by: shabreena vincent
-registration number:212222230141
-with open("file.txt") as fp:
-    with open("fire2.txt","w") as fp1:
-        line= fp.read()
-        fp1.write(line)
+with open('f1.txt','r')as f1:
+    with open('f2.txt','a')as f2:
+        for line in f1:
+            f2.write(line)
       
 ```
 ### OUTPUT:
 
-![f1](https://github.com/shabreenavincent/copy-file/assets/119475721/73e2d9fa-00f9-4834-a2b4-9da294c6993c)
+![output](https://github.com/shabreenavincent/copy-file/assets/119475721/6c45d858-6105-4639-93b9-26ff872b834e)
 
-![f2](https://github.com/shabreenavincent/copy-file/assets/119475721/0fe07f7f-4855-48d8-a6bd-9f89e69f1c87)
+### FILE1:
 
+![file1](https://github.com/shabreenavincent/copy-file/assets/119475721/f73c91b1-df2b-43bc-95b8-441abe4f24ef)
+### FILE2:
+
+![file2](https://github.com/shabreenavincent/copy-file/assets/119475721/7693870c-8973-4d00-b5e1-c8aa6e145e1c)
+
+### FILE 1 copied to FILE 2:
+
+![file 1 file 2 copied](https://github.com/shabreenavincent/copy-file/assets/119475721/ee3e4cae-7a64-4332-9c13-16fc21b7ab93)
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
